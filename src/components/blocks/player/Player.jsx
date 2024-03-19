@@ -16,7 +16,7 @@ const Player = () => {
           <span>r</span>
         </h2>
         <div className="player-info">
-          <img src="./images/disk.png" className="player-image" alt="" />
+          <img src={process.env.PUBLIC_URL + "./images/disk.png"} className="player-image" alt="" />
           <DJInfo />
           <AudioPlayer src={"/music/.mp3"}/>
         </div>
