@@ -21,7 +21,7 @@ const UserInfo = () => {
         <span>o</span>
       </h2>
       <div className="user-info">
-        <img className="avatar" alt="User Name" src='/images/pet-love.png' /> 
+        <img src='/images/pet-love.png' className="avatar" alt="e" /> 
         <a href="/"><PersonOutlineOutlinedIcon/>Dein Profil</a>
         <a href="/"><AutoFixHighOutlinedIcon/>Edit Profil</a>
         <a href="/"><EmailOutlinedIcon/> Messages</a>
